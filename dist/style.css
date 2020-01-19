@@ -1,0 +1,138 @@
+body {
+    text-align: center;
+  font-family: 'VT323', monospace;
+  background-color: black;
+  color: white;
+
+}
+
+.box{
+  position: absolute;
+margin-left: auto;
+margin-right: auto;
+  padding-bottom: 100px;
+left: 0;
+right: 0;
+  background-color: #e99b04;
+  
+  margin: 1em;
+  border-radius: 10px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, .2);
+}
+h3 {
+  padding: .1em .1em;
+  margin-top: .5em;
+  margin-bottom: .3em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    background-color: white;
+}
+
+input[type=number] {
+    width: 3em;
+}
+.centerBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main{
+   max-width: 500px;
+  padding: .5rem;
+}
+.toolBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e94a04;
+  border-radius: 20px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, .5);
+  padding: .1em .4em;
+}
+.toolBox div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#sizePicker{
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  
+}
+#sizePicker p{
+  margin: auto .1em;
+  padding: .5em .3em;
+  font-size: 20px;
+}
+#sizePicker button{
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 .5em;
+  padding: .5em .3em;
+   border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, .3);
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, .2);
+  
+}
+#sizePicker button:focus {
+  outline:0;
+}
+.colorBox{
+    display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  
+}
+#colorPicker{
+  background-color: black;
+  border-radius: 20px;
+  border: none;
+  width: 50px;
+  padding: 0;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, .2);
+  margin: .7em .5em;
+  
+
+}
+input::-webkit-color-swatch {
+    border: none;
+}
+input:focus {
+  outline:0;
+}
+
+#canvasBox{
+  margin: 10px;
+  padding: 30px;
+
+}
